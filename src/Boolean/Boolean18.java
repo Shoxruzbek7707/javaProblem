@@ -1,0 +1,27 @@
+package Boolean;
+
+import java.util.Scanner;
+
+public class Boolean18 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int a,b,c;
+
+        System.out.print("a=");
+        a = scanner.nextInt();
+
+        System.out.print("b=");
+        b = scanner.nextInt();
+
+        System.out.print("c=");
+        c = scanner.nextInt();
+
+        if ((a==b && a!=c) || (a==c && a!=b) || (b==c && b!=a)){
+            System.out.print(true);
+        }else{
+            System.out.print(false);
+        }
+
+    }
+}
