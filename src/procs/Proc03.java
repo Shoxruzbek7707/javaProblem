@@ -13,7 +13,7 @@ public class Proc03 {
         y = scanner.nextDouble();
         mean(x,y,AMean,GMean);
     }
-    public static void mean(double x,double y,double AMean,double GMean){
+    static void mean(double x,double y,double AMean,double GMean){
         AMean = (x + y) / 2;
         GMean = Math.sqrt(x * y);
         System.out.println("x va y ning o'rta arifmetigi: " + AMean);

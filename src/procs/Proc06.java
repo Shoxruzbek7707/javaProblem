@@ -11,7 +11,7 @@ public class Proc06 {
         K = scanner.nextInt();
         raqamCountSum(K,count,sum);
     }
-    public static void raqamCountSum(int K,int count,int sum){
+    static void raqamCountSum(int K,int count,int sum){
         while (K > 0){
             sum += K % 10;
             count ++;

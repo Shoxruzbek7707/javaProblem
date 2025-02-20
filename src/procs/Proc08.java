@@ -16,7 +16,7 @@ public class Proc08 {
         int result = OngTarafgaQoshish(K,D);
 
     }
-    public static int OngTarafgaQoshish(int K,int D){
+     static int OngTarafgaQoshish(int K,int D){
         return  K * 10 + D;
     }
 

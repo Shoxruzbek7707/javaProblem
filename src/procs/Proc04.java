@@ -13,7 +13,7 @@ public class Proc04 {
         uchburchakPS(a,P,S);
     }
 
-     public static void uchburchakPS(double a, double P, double S){
+   static void uchburchakPS(double a, double P, double S){
          P = a *3;
          S = (Math.pow(a,2) * Math.sqrt(3)) / 4;
          System.out.println("Perimetri: " + P);

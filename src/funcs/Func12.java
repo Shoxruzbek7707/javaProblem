@@ -14,7 +14,7 @@ public class Func12 {
 
         System.out.println(IsPowerN(K,N));
     }
-    public static boolean IsPowerN(int K,int N){
+    static boolean IsPowerN(int K,int N){
         while (K > 1){
             if (K % N !=0){
                 return false;

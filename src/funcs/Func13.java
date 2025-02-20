@@ -11,7 +11,7 @@ public class Func13 {
 
         System.out.println(IsPrime(N));
     }
-    public static boolean IsPrime(int N){
+    static boolean IsPrime(int N){
         if (N < 2){
             return false;
         }

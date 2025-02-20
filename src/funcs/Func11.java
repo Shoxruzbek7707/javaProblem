@@ -10,7 +10,7 @@ public class Func11 {
         K = scanner.nextInt();
         System.out.println(IsPower5(K));
     }
-    public static boolean IsPower5(int K){
+    static boolean IsPower5(int K){
         while(K > 1){
             if (K % 5 != 0){
                 return false;

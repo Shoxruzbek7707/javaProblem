@@ -11,7 +11,8 @@ public class Func03 {
         double result = Circles(R);
         System.out.println(result);
     }
-    public static double Circles(double R){
+     static double Circles(double R)
+     {
         return 3.14 * R * R;
     }
 }

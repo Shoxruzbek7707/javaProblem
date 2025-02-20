@@ -20,7 +20,7 @@ public class Func07 {
         System.out.println(Calc(a,b,Op));
 
     }
-    public static double Calc(double a, double b,int Op) {
+    static double Calc(double a, double b,int Op) {
         if (Op == 1) return a - b;
         if (Op == 2) return a * b;
         if (Op == 3) return a / b;

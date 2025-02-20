@@ -14,7 +14,7 @@ public class Proc09 {
 
 
     }
-    public static int ChapTarafQoshish(int K,int D){
+   static int ChapTarafQoshish(int K,int D) {
         return Integer.parseInt(D + "" + K);
     }
 }

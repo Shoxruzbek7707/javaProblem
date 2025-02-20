@@ -14,7 +14,7 @@ public class Proc10 {
 
         almashtirish(x,y);
     }
-    public static void almashtirish(int x,int y){
+   static void almashtirish(int x,int y){
         int temp = x;
         x = y;
         y = temp;

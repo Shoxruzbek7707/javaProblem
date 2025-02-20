@@ -12,7 +12,7 @@ public class Func01 {
         System.out.println(result);
 
     }
-    public static int Sign(int x){
+    static int Sign(int x){
         if(x < 0){
             return -1;
         }

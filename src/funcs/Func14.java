@@ -11,7 +11,7 @@ public class Func14 {
 
         System.out.println(DigiCount(K));
     }
-    public  static  int DigiCount(int K){
+    static  int DigiCount(int K){
         int count = 0;
         while (K > 0){
             count ++;

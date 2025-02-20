@@ -16,7 +16,7 @@ public class Func04 {
         System.out.println(result);
     }
 
-    public static double Rings(double R1, double R2){
+    static double Rings(double R1, double R2){
         return 3.14 * (R1 * R1 - R2 * R2);
     }
 }

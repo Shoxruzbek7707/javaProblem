@@ -12,7 +12,7 @@ public class Proc07 {
         System.out.println(result);
 
     }
-    public static int reversedNum(int K){
+    static int reversedNum(int K){
         int reversedNum = 0;
         while (K > 0){
             reversedNum = reversedNum * 10 + K % 10;

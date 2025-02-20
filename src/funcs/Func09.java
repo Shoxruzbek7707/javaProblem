@@ -10,7 +10,7 @@ public class Func09 {
         K = scanner.nextInt();
         System.out.println(Even(K));
     }
-    public static boolean Even(int K){
+    static boolean Even(int K){
         return K % 2 == 0;
     }
 }

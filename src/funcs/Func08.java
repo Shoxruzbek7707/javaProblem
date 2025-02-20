@@ -15,7 +15,7 @@ public class Func08 {
         System.out.println(Quarter(x,y));
 
     }
-    public  static int Quarter(double x,double y){
+    static int Quarter(double x,double y){
         if (x > 0 && y > 0){
             return 1;
         }

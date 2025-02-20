@@ -12,7 +12,7 @@ public class Proc01 {
         System.out.println(result);
 
     }
-    public  static double powerA3(double A){
+     static double powerA3(double A){
         return Math.pow(A,3);
     }
 }

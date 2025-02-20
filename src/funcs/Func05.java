@@ -15,7 +15,7 @@ public class Func05 {
         double result = Triangle(a,h);
         System.out.println(result);
     }
-    public static double Triangle(double a,double h){
+    static double Triangle(double a,double h){
         double b = Math.sqrt((a / 2) * (a / 2) + h * h);
         return 2 * b + a;
     }

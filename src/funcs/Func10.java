@@ -11,7 +11,7 @@ public class Func10 {
         System.out.println(Isquare(K));
 
     }
-    public static boolean Isquare(int K){
+    static boolean Isquare(int K){
         for (int i = 1; i * i <= K;i++){
             if (i * i == K){
                 return true;

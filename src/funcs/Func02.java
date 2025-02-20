@@ -18,7 +18,7 @@ public class Func02 {
         int result = RootCount(A,B,C);
         System.out.println(result);
     }
-    public static int RootCount(double A,double B,double C){
+   static int RootCount(double A,double B,double C){
         double D = B * B - 4 * A * C;
         if(D > 0){
             return 2;

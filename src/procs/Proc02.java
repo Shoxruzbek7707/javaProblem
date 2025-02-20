@@ -13,7 +13,7 @@ public class Proc02 {
         powerA234(A,B,C,D);
 
     }
-    public static void powerA234(double A, double B, double C,double D){
+    static void powerA234(double A, double B, double C,double D){
         B = Math.pow(A,2);
         C = Math.pow(A,3);
         D = Math.pow(A,4);

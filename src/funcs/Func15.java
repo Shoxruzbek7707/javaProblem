@@ -14,7 +14,7 @@ public class Func15 {
 
         System.out.println(DigitN(K,N));
     }
-    public static int DigitN(int K,int N){
+    static int DigitN(int K,int N){
         int lenght = 0,temp = K;
         while(temp > 0){
             lenght ++;

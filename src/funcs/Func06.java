@@ -13,7 +13,7 @@ public class Func06 {
         System.out.print("b=");
         b = scanner.nextInt();
     }
-    public static int SumRange(int a,int b){
+    static int SumRange(int a,int b){
         if (a > b){
             return 0;
         }
