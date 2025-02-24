@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Matrix010 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int m,n,k;
+        int m,n;
         System.out.print("m=");
         m = scanner.nextInt();
 
@@ -22,11 +22,20 @@ public class Matrix010 {
             }
         }
 
-        System.out.println("Matrix elementlari:");
-        for (int i = 1;i < m;i+=2){
-            for (int j = 0;j < n;j++){
-                System.out.println(matrix[i][j] + " ");
+        System.out.println("\nMatritsa:");
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(matrix[i][j] + " ");
             }
+            System.out.println();
+        }
+
+        System.out.println("Matrix elementlari:");
+        for (int j = 1;j < n;j+=2){
+            for (int i = 0;i < m;i++){
+                System.out.println(matrix[i][j]);
+            }
+            System.out.println();
         }
     }
 }

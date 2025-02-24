@@ -24,9 +24,9 @@ public class Matrix009 {
         }
 
         System.out.println("Matrix elementlari:");
-        for (int i = 0;i < m;i++){
-            for (int j = 0;j < n;j+=2){
-                System.out.println(matrix[i][j] + " ");
+        for (int i = 0;i < m;i+=2){
+            for (int j = 0;j < n;j++){
+                System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }

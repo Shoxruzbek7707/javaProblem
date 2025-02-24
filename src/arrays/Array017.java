@@ -24,7 +24,7 @@ public class Array017 {
 
         int left = 0,right = n - 1;
         System.out.println("Natija:");
-        while (left <= right){
+        while (left < right){
             System.out.print(array[left++] + " ");
 
             System.out.print(array[right--] + " ");

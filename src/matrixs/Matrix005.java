@@ -14,11 +14,11 @@ public class Matrix005 {
         System.out.print("d=");
         int d = scanner.nextInt();
 
-        int[] array = new int[n];
+        int[] array = new int[m];
         int[][] matrix = new int[m][n];
 
         System.out.println("Arrayni to'ldiring:");
-        for (int i = 0;i < n;i++){
+        for (int i = 0;i < m;i++){
             System.out.println( i + " chi elementni kiriting:");
             array[i] = scanner.nextInt();
         }

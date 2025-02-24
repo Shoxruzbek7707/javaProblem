@@ -28,8 +28,9 @@ public class Matrix006 {
             matrix[i][0] = array[i];
         }
 
-        for (int i = 0;i < n;i++){
-            for (int j = 1;j < m;j++){
+
+        for (int i = 0;i < m;i++){
+            for (int j = 1;j < n;j++){
                 matrix[i][j] = matrix[i][j - 1] * q;
             }
         }
